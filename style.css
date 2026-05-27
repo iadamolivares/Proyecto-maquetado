@@ -17,3 +17,42 @@
     --edges: #2A2D3A;
 }
 
+.pagweb {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+    background-color: var(--primary);
+    margin: 100px auto;
+    width: 650px;
+    padding: 10px;
+}
+
+
+/* Estructura del header */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: var(--principaltext);
+}
+
+.powerbutton img {
+    width: 30px;
+    justify-content: center;
+}
+
+.powerbutton button {
+    border-radius: 10px;
+    background-color: var(--edges);
+    color: var(--principaltext);
+    width: 50px;
+}
+
