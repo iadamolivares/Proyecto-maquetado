@@ -41,7 +41,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    color: var(--principaltext);
+    color: var(--principaltext);aa
 }
 
 .powerbutton img {
