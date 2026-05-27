@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #12131A;
+    --fondcards: #1C1F2A;
+    --principaltext: #F2F2F7;
+    --secundarytext: #B4B7C9;
+    --card1: #C99DFF;
+    --card2: #FFB21E;
+    --card3: #FF8A65;
+    --progressbar: #D19BFF;
+}
