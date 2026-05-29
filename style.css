@@ -143,6 +143,87 @@ main textarea {
 
 /* Estructura de los stats */
  
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.totalCharacters{
+    margin-left: 30px;
+}
+
+.totalCharacters img {
+border-radius: 10px;
+}
+
+.totalCharacters p {
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.totalCharacters span {
+    position: relative;
+    bottom: 90px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Inter"; 
+}
+
+.wordCount {
+    margin: 0 15 0 15;
+}
+
+.wordCount  img {
+border-radius: 10px;
+}
+
+.wordCount  p {
+    position: relative;
+    bottom: 83px;
+    left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+
+.wordCount span {
+    position: relative;
+    bottom: 38px;
+    right: 90px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Inter";
+}
+
+.sentenceCount {
+    margin-right: 30px;
+}
+
+.sentenceCount img {
+    border-radius: 10px;
+}
+
+.sentenceCount p {
+    position: relative;
+    bottom: 53px;
+    left: 10px;
+    font-weight: 500;
+}
+
+.sentenceCount span {
+    position: relative;
+    bottom: 90px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Inter";
+}
+
+/* Estructura de los porcentajes */
 
 
 
