@@ -31,6 +31,8 @@ align-items: center;
     padding: 10px;
 }
 
+/* ------------------------------------------------------------ */
+
 /* Estructura del header */
 
 header {
@@ -55,6 +57,8 @@ header {
     color: var(--principaltext);
     width: 50px;
 }
+
+/* ------------------------------------------------------------- */
 
 /* Estructura del main */
 
@@ -141,6 +145,8 @@ main textarea {
     margin-top: 10px;
 }
 
+/* ------------------------------------------------------- */
+
 /* Estructura de los stats */
  
 .stats {
@@ -151,30 +157,45 @@ main textarea {
 }
 
 .totalCharacters{
-    margin-left: 30px;
-}
-
-.totalCharacters img {
-border-radius: 10px;
-}
-
-.totalCharacters p {
-    position: relative;
-    bottom: 50px;
-    left: 10px;
-    font-size: 15px;
-    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 200px;
+    margin-left: 20px;
+    background-image: url(./assets/images/card-violet.png);
+    background-size: contain;
+    border-radius: 10px;
 }
 
 .totalCharacters span {
-    position: relative;
-    bottom: 90px;
     font-size: 50px;
     font-weight: 700;
-    font-family: "Inter"; 
+    font-family: "Inter";
+    padding: 0 80px 0 0;
 }
 
-.wordCount {
+.totalCharacters p{
+    font-weight: 500;
+    font-family: "Inter";
+    padding: 0 40px 0 0;
+   
+}
+
+
+
+/* .totalCharacters p {
+font-size: 15px;
+font-weight: 500;
+padding: 50px;        
+}
+
+.totalCharacters span {
+    font-size: 50px;
+} */
+
+/* .wordCount {
     margin: 0 15 0 15;
 }
 
@@ -221,9 +242,12 @@ border-radius: 10px;
     font-size: 50px;
     font-weight: 700;
     font-family: "Inter";
-}
+} */
+
+/* ------------------------------------------------------------- */
 
 /* Estructura de los porcentajes */
+
 
 
 
