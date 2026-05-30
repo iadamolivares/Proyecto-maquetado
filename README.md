@@ -30,6 +30,10 @@ Para mí lo más complejo fue el estilar los progress y el checkbox, ahí fue cu
 
 ![Desktop](./assets/images/Proyecto-maquetado-final.png)
 
+![Desktop](./assets/images/text.png)
+
+![Desktop](./assets/images/hover.png)
+
 ## Aprendizajes
 
 Durante este proyecto reforcé conocimientos sobre :
