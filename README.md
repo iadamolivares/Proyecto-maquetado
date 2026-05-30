@@ -34,6 +34,8 @@ Para mí lo más complejo fue el estilar los progress y el checkbox, ahí fue cu
 
 ![Desktop](./assets/images/hover.png)
 
+![Desktop](./assets/images/btn.png)
+
 ## Aprendizajes
 
 Durante este proyecto reforcé conocimientos sobre :
