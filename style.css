@@ -17,11 +17,18 @@
     --edges: #2A2D3A;
 }
 
+@media (max-width:900px) {
+.pagweb {
+ background-color: var(--progressbar);
+} 
+}
+
+
 .pagweb {
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 
 .bowl {
